@@ -1,0 +1,19 @@
+# Ignore dataset folders
+dataset*/
+data*/
+images*/
+*/dataset/
+*/images/
+
+# Ignore common image file types
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Optional: ignore other large files or temp files
+*.mp4
+*.avi
+*.zip
+*.tar
+*.log

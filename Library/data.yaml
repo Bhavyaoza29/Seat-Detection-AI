@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['chair - v1 2024-08-12 7-59am']
+
+roboflow:
+  workspace: bhavya-oza-ku2407u033
+  project: officechair-uguir
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/bhavya-oza-ku2407u033/officechair-uguir/1

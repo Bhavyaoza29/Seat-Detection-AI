@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['occupied', 'vacant']
+
+roboflow:
+  workspace: seatdetectionai-fx7ex
+  project: seatdetectionai-xcasb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/seatdetectionai-fx7ex/seatdetectionai-xcasb/dataset/1
